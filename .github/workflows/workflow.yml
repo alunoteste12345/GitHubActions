@@ -28,10 +28,10 @@ jobs:
 
       # Executa um único comando usando o shell runners
       - name: executando docker 
-        run: docker run docker/cowsay cowsay Test Image
+        run: docker run docker/whalesay cowsay Open a pull request
 
       # Executa um conjunto de comandos usando o shell runners
       - name: Run a multi-line script
         run: |
-          echo testando workflow
-          echo finalizando workflow
+          echo testando meu workflow
+          echo finalizando meu workflow
